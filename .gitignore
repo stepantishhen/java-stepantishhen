@@ -1,0 +1,46 @@
+### Project ##
+!**/src/main/**
+!**/src/test/**
+
+### Maven ###
+!.mvn/wrapper/maven-wrapper.jar
+target/
+.flattened-pom.xml
+dependency-reduced-pom.xml
+
+### IntelliJ IDEA ###
+!.idea/codeStyles/Project.xml
+!.idea/jsonSchemas.xml
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Scala SBT
+.bsp
+
+### log files ###
+*.log
+hs_err_pid*
+
+# Игнорирование временных файлов
+ *~
+ *.bak
+ *.tmp
+ *.swp
+ *.DS_Store
+ Thumbs.db
+  out/
+# Игнорирование логов ошибок
+logs
+# Token
+bot/.env
+*.env
+.env.local
+.env.*.local
+bot/.env.properties
+.env.properties
+bot/run.bat
+run.bat
+bot/src/main/resources/application-local.yml
+checklist.md
